@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#191714" />
+    <meta name="description" content="Design Portfolio 2026 — 以形筑梦，以意点睛。" />
+    <title>Design Portfolio 2026</title>
+    <link rel="preload" href="./第1屏/标题.png" as="image" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="intro-stack">
+    <main class="hero" id="home" aria-label="作品集首页">
+      <video
+        class="hero__video"
+        src="./第1屏/视频.mp4"
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="auto"
+        aria-hidden="true"
+      ></video>
+
+      <header class="hero__header">
+        <div class="brand" aria-label="Design Portfolio 2026">
+          <span class="brand__mark" aria-hidden="true"><i></i><i></i></span>
+          <span class="brand__name">Design Portfolio <span class="brand__year">2026</span><span class="brand__arrow" aria-hidden="true">↘</span></span>
+        </div>
+        <button class="contact" type="button" aria-haspopup="dialog" aria-controls="contact-dialog">Contact Me <span aria-hidden="true">↗</span></button>
+      </header>
+
+      <h1 class="hero__title">
+        <span class="sr-only">以形筑梦，以意点睛</span>
+        <canvas class="hero__title-canvas" width="1280" height="220" aria-hidden="true"></canvas>
+        <img class="hero__title-image" src="./第1屏/标题.png" alt="" aria-hidden="true" />
+      </h1>
+    </main>
+    <section class="profile-screen" id="about" aria-label="个人简介与工作经历">
+      <img src="./第2屏/导图.jpg" alt="朱吉良的个人简介、工作经历和联系方式" width="1920" height="1137" loading="lazy" />
+    </section>
+    </div>
+    <section class="process-screen" id="experience" aria-labelledby="process-title">
+      <h2 id="process-title" class="process-screen__title">Working Process <span>*Campaign · Social*</span></h2>
+      <div class="process-screen__artboard">
+        <img class="process-screen__guide" src="./第3屏/导图.jpg" alt="" width="1920" height="1190" loading="lazy" aria-hidden="true" />
+        <div class="process-screen__cards" aria-label="五个工作流程阶段">
+          <img class="process-card process-card--1" src="./第3屏/卡片/1.png" alt="需求洞察：用户洞察、竞品调研与需求拆解" width="256" height="366" loading="lazy" tabindex="0" />
+          <img class="process-card process-card--2" src="./第3屏/卡片/2.png" alt="策略定义：视觉策略、信息层级与转化逻辑" width="256" height="366" loading="lazy" tabindex="0" />
+          <img class="process-card process-card--3" src="./第3屏/卡片/3.png" alt="创意设计：创意构思、三维表现与 AIGC 提效" width="256" height="366" loading="lazy" tabindex="0" />
+          <img class="process-card process-card--4" src="./第3屏/卡片/4.png" alt="项目交付：设计执行、多端适配与品质把控" width="256" height="366" loading="lazy" tabindex="0" />
+          <img class="process-card process-card--5" src="./第3屏/卡片/5.png" alt="复盘迭代：数据反馈、持续优化与规范沉淀" width="256" height="366" loading="lazy" tabindex="0" />
+        </div>
+      </div>
+    </section>
+    <section class="gallery-screen" aria-label="作品展示：八张作品卡片循环展示">
+      <div class="gallery-screen__viewport">
+        <div class="gallery-screen__track" aria-hidden="true">
+          <div class="gallery-card"><img src="./第4屏/黑白/黑白8.png" alt="" /><img class="gallery-card__color" src="./第4屏/原色/8.png" alt="" /></div>
+          <div class="gallery-card"><img src="./第4屏/黑白/黑白1.png" alt="" /><img class="gallery-card__color" src="./第4屏/原色/1.png" alt="" /></div>
+          <div class="gallery-card"><img src="./第4屏/黑白/黑白2.png" alt="" /><img class="gallery-card__color" src="./第4屏/原色/2.png" alt="" /></div>
+          <div class="gallery-card"><img src="./第4屏/黑白/黑白3.png" alt="" /><img class="gallery-card__color" src="./第4屏/原色/3.png" alt="" /></div>
+          <div class="gallery-card"><img src="./第4屏/黑白/黑白4.png" alt="" /><img class="gallery-card__color" src="./第4屏/原色/4.png" alt="" /></div>
+          <div class="gallery-card"><img src="./第4屏/黑白/黑白5.png" alt="" /><img class="gallery-card__color" src="./第4屏/原色/5.png" alt="" /></div>
+          <div class="gallery-card"><img src="./第4屏/黑白/黑白6.png" alt="" /><img class="gallery-card__color" src="./第4屏/原色/6.png" alt="" /></div>
+          <div class="gallery-card"><img src="./第4屏/黑白/黑白7.png" alt="" /><img class="gallery-card__color" src="./第4屏/原色/7.png" alt="" /></div>
+        </div>
+      </div>
+    </section>
+    <section class="commerce-screen" id="portfolio" aria-labelledby="commerce-title">
+      <div class="commerce-screen__intro">
+        <h2 id="commerce-title">E-COMMERCE &amp; EVENTS<br />VISUAL DESIGN <span class="commerce-screen__dots" aria-hidden="true"><i></i><i></i><i></i></span></h2>
+        <span class="commerce-screen__arrow interactive-arrow" aria-hidden="true"><span class="interactive-arrow__art"><img class="interactive-arrow__base" src="./小按钮/原版.png" alt="" draggable="false" /><img class="interactive-arrow__glow" src="./小按钮/发光.png" alt="" draggable="false" /></span></span>
+      </div>
+      <div class="commerce-screen__grid" aria-label="电商与活动视觉设计作品">
+        <a class="commerce-card" href="./第5屏/二级页长图/1.jpg" data-project="1" data-category="首页设计" data-title="江小白天猫618" aria-label="查看江小白天猫618设计详情"><img src="./第5屏/卡片/1.png" alt="江小白天猫618视觉设计" width="468" height="315" loading="lazy" /></a>
+        <a class="commerce-card" href="./第5屏/二级页长图/2.jpg" data-project="2" data-category="首页设计" data-title="时光梅天猫双11" aria-label="查看时光梅天猫双11设计详情"><img src="./第5屏/卡片/2.png" alt="时光梅天猫双11视觉设计" width="468" height="315" loading="lazy" /></a>
+        <a class="commerce-card" href="./第5屏/二级页长图/3.jpg" data-project="3" data-category="首页设计" data-title="梅见天猫618" aria-label="查看梅见天猫618设计详情"><img src="./第5屏/卡片/3.png" alt="梅见天猫618视觉设计" width="468" height="315" loading="lazy" /></a>
+        <a class="commerce-card" href="./第5屏/二级页长图/4.jpg" data-project="4" data-category="首页设计" data-title="梅见天猫618" aria-label="查看梅见天猫618设计详情"><img src="./第5屏/卡片/4.png" alt="梅见天猫618视觉设计" width="468" height="315" loading="lazy" /></a>
+        <a class="commerce-card" href="./第5屏/二级页长图/5.jpg" data-project="5" data-category="详情页设计" data-title="果立方热烈酒详情页" aria-label="查看果立方热烈酒详情页设计"><img src="./第5屏/卡片/5.png" alt="果立方热烈酒详情页设计" width="468" height="315" loading="lazy" /></a>
+        <a class="commerce-card" href="./第5屏/二级页长图/6.jpg" data-project="6" data-category="AI视觉设计" data-title="时光梅酒商业海报" aria-label="查看时光梅酒商业海报设计"><img src="./第5屏/卡片/6.png" alt="时光梅酒商业海报设计" width="468" height="315" loading="lazy" /></a>
+        <a class="commerce-card" href="./第5屏/二级页长图/7.jpg" data-project="7" data-category="IP设计" data-title="果立方人物IP设计" aria-label="查看果立方人物IP设计详情"><img src="./第5屏/卡片/7.png" alt="果立方人物IP设计" width="468" height="315" loading="lazy" /></a>
+        <a class="commerce-card" href="./第5屏/二级页长图/8.jpg" data-project="8" data-category="3D视觉设计" data-title="江小白商业海报" aria-label="查看江小白商业海报设计"><img src="./第5屏/卡片/8.png" alt="江小白商业海报设计" width="468" height="315" loading="lazy" /></a>
+      </div>
+    </section>
+    <section class="modeling-screen" id="modeling" aria-labelledby="modeling-title">
+      <div class="modeling-screen__heading">
+        <h2 id="modeling-title">3D MODELING &amp; MATERIAL<br />RENDERING <span class="modeling-screen__dots" aria-hidden="true"><i></i><i></i><i></i></span></h2>
+        <span class="modeling-screen__arrow interactive-arrow" aria-hidden="true"><span class="interactive-arrow__art"><img class="interactive-arrow__base" src="./小按钮/原版.png" alt="" draggable="false" /><img class="interactive-arrow__glow" src="./小按钮/发光.png" alt="" draggable="false" /></span></span>
+      </div>
+      <div class="modeling-carousel" tabindex="0" aria-label="3D 建模与材质渲染作品，五张卡片循环展示，可使用左右方向键浏览">
+        <div class="modeling-carousel__stage">
+          <img class="modeling-carousel__card" src="./第6屏/卡片/1.png" alt="A1 无人机设计" width="600" height="830" loading="lazy" />
+          <img class="modeling-carousel__card" src="./第6屏/卡片/2.png" alt="A2 摩托车设计" width="600" height="830" loading="lazy" />
+          <img class="modeling-carousel__card" src="./第6屏/卡片/3.png" alt="A3 耳机设计" width="600" height="830" loading="lazy" />
+          <img class="modeling-carousel__card" src="./第6屏/卡片/4.png" alt="A4 显卡设计" width="600" height="830" loading="lazy" />
+          <img class="modeling-carousel__card" src="./第6屏/卡片/5.png" alt="A5 音乐播放器设计" width="600" height="830" loading="lazy" />
+        </div>
+      </div>
+    </section>
+    <section class="ai-screen" id="ai-rendering" aria-labelledby="ai-screen-title">
+      <h2 class="ai-screen__title" id="ai-screen-title"><span aria-hidden="true">•</span> *AI &amp; RENDERING* <span aria-hidden="true">•</span></h2>
+      <div class="ai-screen__gallery" aria-label="AI 与渲染作品画廊">
+        <div class="ai-screen__column" tabindex="0" aria-label="左列作品：1-1、1-2、1-3，向下循环滚动，悬停可暂停">
+          <div class="ai-screen__track ai-screen__track--down">
+            <img src="./第7屏/卡片/1-1.jpg" alt="AI 与渲染作品 1-1" width="800" height="1131" loading="lazy" />
+            <img src="./第7屏/卡片/1-2.jpg" alt="AI 与渲染作品 1-2" width="800" height="1131" loading="lazy" />
+            <img src="./第7屏/卡片/1-3.jpg" alt="AI 与渲染作品 1-3" width="800" height="1131" loading="lazy" />
+          </div>
+        </div>
+        <div class="ai-screen__column" tabindex="0" aria-label="中列作品：2-1、2-2、2-3，向上循环滚动，悬停可暂停">
+          <div class="ai-screen__track ai-screen__track--up">
+            <img src="./第7屏/卡片/2-1.jpg" alt="AI 与渲染作品 2-1" width="800" height="1131" loading="lazy" />
+            <img src="./第7屏/卡片/2-2.jpg" alt="AI 与渲染作品 2-2" width="800" height="1131" loading="lazy" />
+            <img src="./第7屏/卡片/2-3.jpg" alt="AI 与渲染作品 2-3" width="800" height="1131" loading="lazy" />
+          </div>
+        </div>
+        <div class="ai-screen__column" tabindex="0" aria-label="右列作品：3-1、3-2、3-3，向下循环滚动，悬停可暂停">
+          <div class="ai-screen__track ai-screen__track--down">
+            <img src="./第7屏/卡片/3-1.jpg" alt="AI 与渲染作品 3-1" width="800" height="1131" loading="lazy" />
+            <img src="./第7屏/卡片/3-2.jpg" alt="AI 与渲染作品 3-2" width="800" height="1131" loading="lazy" />
+            <img src="./第7屏/卡片/3-3.jpg" alt="AI 与渲染作品 3-3" width="800" height="1131" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="closing-screen" aria-label="联系信息与作品集页脚">
+      <img class="closing-screen__guide" src="./第8屏/导图2.jpg" alt="作品集页脚：个人信息、邮箱、微信、电话与微信二维码" width="1920" height="919" loading="lazy" />
+      <nav class="closing-screen__nav" aria-label="页脚导航">
+        <a href="#home" aria-label="Home，返回第1屏"><span class="sr-only">Home</span></a>
+        <a href="#about" aria-label="About Me，跳转到第2屏"><span class="sr-only">About Me</span></a>
+        <a href="#experience" aria-label="Experience，跳转到第3屏"><span class="sr-only">Experience</span></a>
+        <a href="#portfolio" aria-label="Portfolio，跳转到第5屏"><span class="sr-only">Portfolio</span></a>
+        <a href="mailto:2504503674@qq.com" aria-label="Contact，发送邮件"><span class="sr-only">Contact</span></a>
+      </nav>
+      <div class="closing-screen__marquee" aria-label="作品类别从右向左循环展示">
+        <div class="closing-screen__track" aria-hidden="true">
+          <img src="./第8屏/底部轮播.png" alt="" width="2807" height="47" loading="lazy" />
+          <img src="./第8屏/底部轮播.png" alt="" width="2807" height="47" loading="lazy" />
+        </div>
+      </div>
+    </footer>
+    <dialog class="contact-dialog" id="contact-dialog" aria-label="添加微信联系我">
+      <button class="contact-dialog__close" type="button" aria-label="关闭微信卡片"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 5L19 19M19 5L5 19" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></button>
+      <img src="./第1屏/加微信卡片-弹窗.png" alt="扫描二维码添加朱吉良的微信" width="670" height="535" />
+    </dialog>
+    <dialog class="project-dialog" aria-labelledby="project-dialog-title">
+      <div class="project-dialog__header">
+        <div class="project-dialog__heading"><span class="project-dialog__category"></span><h2 id="project-dialog-title"></h2></div>
+        <div class="project-dialog__actions"><span>1 PAGES</span><button class="project-dialog__close" type="button" aria-label="关闭作品详情"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 4L20 20M20 4L4 20" stroke="currentColor" stroke-width="1.5"/></svg></button></div>
+      </div>
+      <div class="project-dialog__content" tabindex="0"><p class="project-dialog__status" role="status">作品加载中…</p><img class="project-dialog__image" alt="" /></div>
+    </dialog>
+    <script src="./main.js" defer></script>
+  </body>
+</html>
